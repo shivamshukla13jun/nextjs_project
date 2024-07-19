@@ -1,0 +1,54 @@
+/* Mylists.module.css */
+.myList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movieItem {
+    position: relative;
+    width: 200px;
+    background-color: #141414;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .movieItem img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movieItem h3 {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .movieItem button {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .movieItem button:hover {
+    background-color: #f40612;
+  }
+  
+  .movieItem:hover {
+    transform: scale(1.05);
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

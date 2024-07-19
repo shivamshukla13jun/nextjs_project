@@ -1,0 +1,40 @@
+/* styles/Movie.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.desc {
+    font-size: 1em;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+}
+
+.details {
+    font-size: 0.9em;
+}
+
+.details p {
+    margin: 5px 0;
+}
